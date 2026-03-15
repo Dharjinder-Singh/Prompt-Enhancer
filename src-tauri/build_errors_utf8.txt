@@ -1,0 +1,326 @@
+﻿cargo :    Compiling 
+prompt-enhancer-desktop v0.1.0 
+(C:\Users\Dharjinder Singh\.gemini\
+antigravity\scratch\Format\prompt-e
+nhancer-desktop\src-tauri)
+At line:1 char:145
++ ... 
+vironmentVariable("Path","User"); 
+cargo build > build_errors.txt 2>&1
++                                  
+     
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotS 
+   pecified: (   Compiling pr...k  
+  top\src-tauri):String) [], Rem   
+ oteException
+    + FullyQualifiedErrorId : Nati 
+   veCommandError
+ 
+error: linking with `link.exe` 
+failed: exit code: 1181
+  |
+  = note: "C:\\Program Files 
+(x86)\\Microsoft Visual Studio\\202
+2\\BuildTools\\VC\\Tools\\MSVC\\14.
+43.34808\\bin\\HostX64\\x64\\link.e
+xe" "/DEF:C:\\Users\\Dharjinder Sin
+gh\\.gemini\\antigravity\\scratch\\
+Format\\prompt-enhancer-desktop\\sr
+c-tauri\\target\\debug\\deps\\rustc
+QlFXdg\\lib.def" "/NOLOGO" 
+"C:\\Users\\Dharjinder Singh\\.gemi
+ni\\antigravity\\scratch\\Format\\p
+rompt-enhancer-desktop\\src-tauri\\
+target\\debug\\deps\\rustcQlFXdg\\s
+ymbols.o" "<257 object files 
+omitted>" "C:\\Users\\Dharjinder Si
+ngh\\.gemini\\antigravity\\scratch\
+\Format\\prompt-enhancer-desktop\\s
+rc-tauri\\target\\debug\\deps/{libt
+auri_plugin_opener-6587dfde8090adb1
+,libopen-7ac554dfa687c708,libtauri_
+plugin_global_shortcut-07f19b4f465d
+937d,libglobal_hotkey-0b0a99ebf5f9e
+bcd,libtauri-b05db93064ec3a69,libdi
+rs-bbb8253b323e811e,libdirs_sys-2d3
+fc212749ca1fc,liboption_ext-8513c8c
+b703cb7e8,libwindow_vibrancy-9a5e90
+44bc91fecd,libwindows_sys-2629b82bf
+0692759,libwindows_targets-a625e578
+596c84fc,libgetrandom-b23b968143644
+8b7,libtauri_runtime_wry-2d4e9f7dbc
+374b82,libsoftbuffer-37e33d4dcd8266
+a4,libwry-ff530a05ae47fe25,libtao-4
+f6a8eb8ea4e3ef7,libwindows_version-
+49f6b27af6d86d1f,libparking_lot-f61
+f73a4bdc518bd,libparking_lot_core-e
+d8734d4184d26ce,liblock_api-b68cb22
+ff79530ea,libscopeguard-723ece37078
+a7d55,libtray_icon-5b599129ce551ba7
+,libmuda-11bee5adc8981198,libkeyboa
+rd_types-2a66bf0a6d03cfea,libunicod
+e_segmentation-02f04cb7237abeab,lib
+crossbeam_channel-836946691dba01a4,
+libcrossbeam_utils-2df352021d765f53
+,libtauri_runtime-33e99535539600ca,
+libwebview2_com-2304d4db8c173cff,li
+bwebview2_com_sys-d9553ec151ab27d0,
+libcookie-8b28bba561f4cb92,libtime-
+768462ffb6242473,libtime_core-a9d2f
+92063d4279b,libnum_conv-1a3eaa879f4
+9c247,libderanged-bf26b2a724f25c8d,
+libpowerfmt-9bb3379f71656c79,libwin
+dows-86f18d86cb7d143d,libwindows_co
+re-d32624c57276ee53,libwindows_stri
+ngs-b8c97469179154c9,libwindows_res
+ult-bee1099a5ce46804,libwindows_lin
+k-57ba8aff965a95b7,libdpi-112eb8765
+244942b,libserialize_to_javascript-
+1ccb3d8945b7c034,libraw_window_hand
+le-242546455859c2e3,libtauri_utils-
+2266601f9ffc3557,libdunce-5081b4789
+f8ab32e,libinfer-5fd4d97776ceff3e,l
+ibcfb-d7abe8d45eed72c3,libbyteorder
+-759339f93f2720ea,libuuid-95f972573
+3964123,libbrotli-b5774068994ed9f9,
+libbrotli_decompressor-89c4def51883
+e888,liballoc_stdlib-f58651c6731c1d
+fa,liballoc_no_stdlib-eed2763f2fc49
+098,liburlpattern-d426c4e1223bfb3e,
+libunic_ucd_ident-e998e66c3a38e02f,
+libunic_ucd_version-f308c4d802ac9d7
+b,libunic_common-02c627c609c7ab80,l
+ibunic_char_property-862d739257bd96
+2b,libunic_char_range-97e484316c289
+89c,libregex-89b9fea76764b5ad,libre
+gex_automata-63e586e1d978b76c,libah
+o_corasick-a4915bf7ee44b552,librege
+x_syntax-41cd32ad10ce7a5e,libglob-e
+8e889108a8ff2ad,libwalkdir-a3208832
+f3bf80b0,libsame_file-e3a8c84b744ae
+f9f,libwinapi_util-b32bf2b7ce10b7f3
+,libjson_patch-3dd80d18c18e4536,lib
+thiserror-0cae66f9d0f7110f,libjsonp
+tr-c22935ce1f3340c8,libserde_with-e
+d7cfef8e3ae5ff8,libphf-ea5f5b02a82f
+f4a5,libphf_shared-677763be456ecad3
+,libsiphasher-8f6f8b34801fc0a6,libt
+oml-9ab62e0bf56d2ebf,libtoml_writer
+-52828a55ebc46a50,libtoml_parser-ab
+da3362747a3699,libwinnow-4ad51a6f94
+b7590d,libserde_spanned-337c760d0d2
+46bd5,libtoml_datetime-34e5afd16bce
+baa6,libserde_untagged-4883d6e92763
+85db,liberased_serde-88136b1b4de700
+d8,libtypeid-f469077ddd494199,libth
+iserror-717556069a619316,libanyhow-
+f62637551f337d6f,libsemver-b1be62b8
+e6acf02d,librusqlite-d1eeaefb30d818
+e0,libhashlink-ae06f49ba439e498,lib
+libsqlite3_sys-7cbf75bb3074fc9e,lib
+fallible_streaming_iterator-fb3a59e
+f7856e642,libfallible_iterator-790b
+55dcda4ae6d3,libreqwest-be96deeb424
+3cca4,librustls_platform_verifier-1
+2ae3696d8ad23b6,libhyper_rustls-375
+6364230f60e30,libtokio_rustls-f1c0c
+0f459ca8061,librustls-473b4335734c1
+41e,libsubtle-627a6a22cc1b80da,libw
+ebpki-9586d2b1dfe1e682,libuntrusted
+-b9f93808322a096d,libaws_lc_rs-6e25
+49e49d7cd697,libaws_lc_sys-2dc5f93b
+92fbb93f,librustls_pki_types-3b315b
+5a0862e1ae,libzeroize-16106ed0a2cc0
+49d,libmime-3b04feda2b37f4b4,libenc
+oding_rs-5d4dddeee7511bcf,libserde_
+json-ebb927954f18dfdc,libmemchr-0fc
+d6535e25b270f,libzmij-4325b5dca3b9a
+abb,libtower_http-cab25fdfa3c51a1b,
+libiri_string-bd85951ba26fac0b,libt
+ower-74e2188e28a9eb0a,libtower_laye
+r-668e84e38a6b6a13,libhyper_util-1d
+5b64bf866e61e1,libwindows_registry-
+a8612decc08cfae9,libwindows_strings
+-8a69d14b956e47eb,libwindows_result
+-3f1ece2c58e1c64c,libbase64-c9fb52e
+f01c8e3dd,libipnet-dd136ef8b25743cc
+,libtower_service-7c9ec914878c2cd6,
+libhyper-f2781b2fa8aacc85,libwant-7
+fe02e1803b642f3,libtry_lock-5aaab1d
+3c8368689,libhttparse-8c05245fae642
+231,libh2-8ff0c52ba13240c1,libtraci
+ng-ec5c7771193584c1,libtracing_core
+-cc10dd2d1066762a,libonce_cell-ace6
+e0436fb89077,libindexmap-752252015a
+1dec45,libequivalent-c93dbca20e3299
+88,libhashbrown-faad29eed624e005,li
+bfoldhash-fe90e1fa000cb61a,libslab-
+b98c9c5a837b05f3,libfnv-a0147f52cee
+2340b,libtokio_util-ebd936c1e2c857e
+f,libfutures_sink-68b99a7682b0ba41,
+libpin_utils-1f1045615cf38de0,libat
+omic_waker-da9a01f7dc236e82,libfutu
+res_channel-eff736dee8ee9cfc,libfut
+ures_util-02743676c6efa3f9,libfutur
+es_task-12597ee60dfe15d1,libtokio-a
+9d87a07381a982d,libsocket2-e31e66dd
+eba77878,libmio-7dc69b3c350f3516,li
+bwindows_sys-9b8f8a4563c6f5f6,libwi
+ndows_link-d02a446b2892e7ab,libhttp
+_body_util-d002e83a6dede9d5,libpin_
+project_lite-9b630ea86c191462,libht
+tp_body-f3b7aaa589086feb,liburl-718
+07334d74dff6e,libidna-4b71d43954137
+f57,libutf8_iter-0ce875cca8500c73,l
+ibidna_adapter-2b2d7bea57e6ca20,lib
+icu_properties-e15693e093c41214,lib
+icu_properties_data-9f5d79eea259460
+f,libicu_normalizer-ee5243fac2c1fc9
+9,libsmallvec-7225edef1ff5cf0c,libi
+cu_normalizer_data-dafde8d03986b8ec
+,libicu_collections-fe27da7edcab191
+6,libpotential_utf-18d0f6cf66f5b492
+,libicu_provider-12d3909f057925b2,l
+ibicu_locale_core-9d9cc89bdd801faf,
+libtinystr-184c77eda53ba131,liblite
+map-38a2d8c8b6fca124,libwriteable-f
+f8b6070cb8082aa,libzerovec-27e006fe
+0be3a75e,libzerotrie-8699394c82d1cc
+d8,libyoke-508403c66ed9ecb0,libstab
+le_deref_trait-53559d2be08691ef,lib
+zerofrom-0c22f122cc4f3b8c,libform_u
+rlencoded-4d910c05c9caefce,libperce
+nt_encoding-a1ba7b09d4b1bb3f,libser
+de-1f3693aa05ef9e93,libhttp-946800b
+106759483,libitoa-9719c22ac9ff088a,
+libbytes-cc0a20647e53726a,libsync_w
+rapper-110162390350e000,libfutures_
+core-85d3f87fb4b487db,libenigo-f6bb
+4ca4e35e2f08,libwindows-f7e346a34c2
+819ed,libwindows_core-8b95609c7a7da
+20b,libwindows_targets-54827fe41b3c
+f7b6,libarboard-72b472ac4fdd9123,li
+bclipboard_win-61da526e77b03c03,lib
+error_code-9075c088a3ef5839,liblog-
+77cfb238c53c228c,libimage-bc91f231f
+9728f8a,libbytemuck-8357b545825fd7b
+8,libmoxcms-fef341d2c7a9627f,libpxf
+m-e08dd713c4025d7f,libpng-c0292fec8
+ee70072,libbitflags-066d24ffa63ac29
+e,libserde_core-a130a6083b50e204,li
+bflate2-9fff859552db5305,libminiz_o
+xide-200deabda6b9e636,libfdeflate-5
+14467b450f2d91b,libsimd_adler32-606
+f6b5155fcd6b1,libcrc32fast-a5e5d95f
+5b15d17d,libcfg_if-958b7eb6cae6936d
+,libbyteorder_lite-d6ad94bfe2ed40f0
+,libnum_traits-53b123ba56b5a8cf,lib
+windows_sys-46b7867f136c30ea,libwin
+dows_targets-02e1e6078ea1e1bf}.rlib
+" "<sysroot>\\lib\\rustlib\\x86_64-
+pc-windows-msvc\\lib/{libstd-*,libp
+anic_unwind-*,libcfg_if-*,libwindow
+s_targets-*,librustc_demangle-*,lib
+std_detect-*,libhashbrown-*,librust
+c_std_workspace_alloc-*,libunwind-*
+,librustc_std_workspace_core-*,liba
+lloc-*,libcore-*,libcompiler_builti
+ns-*}.rlib" "shell32.lib" 
+"ole32.lib" "C:\\Users\\Dharjinder 
+Singh\\.cargo\\registry\\src\\index
+.crates.io-1949cf8c6b5b557f\\window
+s_x86_64_msvc-0.52.6\\lib\\windows.
+0.52.0.lib" "advapi32.lib" 
+"sqlite3.lib" 
+"C:\\Users\\Dharjinder Singh\\.carg
+o\\registry\\src\\index.crates.io-1
+949cf8c6b5b557f\\windows_x86_64_msv
+c-0.48.5\\lib\\windows.0.48.5.lib" 
+"C:\\Users\\Dharjinder Singh\\.carg
+o\\registry\\src\\index.crates.io-1
+949cf8c6b5b557f\\windows_x86_64_msv
+c-0.48.5\\lib\\windows.0.48.5.lib" 
+"kernel32.lib" "user32.lib" 
+"shell32.lib" "gdi32.lib" 
+"advapi32.lib" 
+"C:\\Users\\Dharjinder Singh\\.carg
+o\\registry\\src\\index.crates.io-1
+949cf8c6b5b557f\\windows_x86_64_msv
+c-0.53.1\\lib\\windows.0.53.0.lib" 
+"kernel32.lib" "kernel32.lib" 
+"kernel32.lib" "ntdll.lib" 
+"userenv.lib" "ws2_32.lib" 
+"dbghelp.lib" "/defaultlib:msvcrt" 
+"/NXCOMPAT" 
+"/LIBPATH:C:\\Users\\Dharjinder Sin
+gh\\.gemini\\antigravity\\scratch\\
+Format\\prompt-enhancer-desktop\\sr
+c-tauri\\target\\debug\\build\\aws-
+lc-sys-0fd85f6bfa942058\\out" 
+"/LIBPATH:C:\\Users\\Dharjinder Sin
+gh\\.gemini\\antigravity\\scratch\\
+Format\\prompt-enhancer-desktop\\sr
+c-tauri\\target\\debug\\build\\webv
+iew2-com-sys-a8e0cf84c4dbd6dc\\out\
+\x64" 
+"/LIBPATH:C:\\Users\\Dharjinder Sin
+gh\\.cargo\\registry\\src\\index.cr
+ates.io-1949cf8c6b5b557f\\windows_x
+86_64_msvc-0.53.1\\lib" 
+"/LIBPATH:C:\\Users\\Dharjinder Sin
+gh\\.cargo\\registry\\src\\index.cr
+ates.io-1949cf8c6b5b557f\\windows_x
+86_64_msvc-0.48.5\\lib" 
+"/LIBPATH:C:\\Users\\Dharjinder Sin
+gh\\.cargo\\registry\\src\\index.cr
+ates.io-1949cf8c6b5b557f\\windows_x
+86_64_msvc-0.52.6\\lib" 
+"/OUT:C:\\Users\\Dharjinder Singh\\
+.gemini\\antigravity\\scratch\\Form
+at\\prompt-enhancer-desktop\\src-ta
+uri\\target\\debug\\deps\\prompt_en
+hancer_desktop_lib.dll" 
+"/OPT:REF,NOICF" "/DLL" 
+"/IMPLIB:C:\\Users\\Dharjinder Sing
+h\\.gemini\\antigravity\\scratch\\F
+ormat\\prompt-enhancer-desktop\\src
+-tauri\\target\\debug\\deps\\prompt
+_enhancer_desktop_lib.dll.lib" 
+"/DEBUG" "/PDBALTPATH:%_PDB%" "/NAT
+VIS:<sysroot>\\lib\\rustlib\\etc\\i
+ntrinsic.natvis" "/NATVIS:<sysroot>
+\\lib\\rustlib\\etc\\liballoc.natvi
+s" "/NATVIS:<sysroot>\\lib\\rustlib
+\\etc\\libcore.natvis" "/NATVIS:<sy
+sroot>\\lib\\rustlib\\etc\\libstd.n
+atvis" 
+"/NATVIS:C:\\Users\\Dharjinder Sing
+h\\.gemini\\antigravity\\scratch\\F
+ormat\\prompt-enhancer-desktop\\src
+-tauri\\target\\debug\\deps\\rustcQ
+lFXdg\\prompt_enhancer_desktop_lib-
+0.natvis" 
+"/NATVIS:C:\\Users\\Dharjinder Sing
+h\\.gemini\\antigravity\\scratch\\F
+ormat\\prompt-enhancer-desktop\\src
+-tauri\\target\\debug\\deps\\rustcQ
+lFXdg\\prompt_enhancer_desktop_lib-
+1.natvis" 
+"/NATVIS:C:\\Users\\Dharjinder Sing
+h\\.gemini\\antigravity\\scratch\\F
+ormat\\prompt-enhancer-desktop\\src
+-tauri\\target\\debug\\deps\\rustcQ
+lFXdg\\prompt_enhancer_desktop_lib-
+2.natvis"
+  = note: some arguments are 
+omitted. use `--verbose` to show 
+all linker arguments
+  = note: LINK : fatal error 
+LNK1181: cannot open input file 
+'sqlite3.lib'
+          
+
+error: could not compile 
+`prompt-enhancer-desktop` (lib) 
+due to 1 previous error

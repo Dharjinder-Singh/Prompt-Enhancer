@@ -1,0 +1,21 @@
+    Checking prompt-enhancer-desktop v0.1.0 (C:\Users\Dharjinder Singh\.gemini\antigravity\scratch\Format\prompt-enhancer-desktop\src-tauri)
+error[E0382]: use of moved value: `v`
+   --> src\lib.rs:413:47
+    |
+411 |             if let Ok((k, v)) = row {
+    |                           -
+    |                           |
+    |                           this reinitialization might get skipped
+    |                           move occurs because `v` has type `std::string::String`, which does not implement the `Copy` trait
+412 |                 if k == "llm_provider" && !v.is_empty() { llm_provider = v; }
+    |                                                                          - value moved here
+413 |                 if k == "api_key" { api_key = v; }
+    |                                               ^ value used here after move
+    |
+help: consider cloning the value if the performance cost is acceptable
+    |
+412 |                 if k == "llm_provider" && !v.is_empty() { llm_provider = v.clone(); }
+    |                                                                           ++++++++
+
+For more information about this error, try `rustc --explain E0382`.
+error: could not compile `prompt-enhancer-desktop` (lib) due to 1 previous error

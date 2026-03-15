@@ -1,0 +1,118 @@
+﻿
+> prompt-enhancer-desktop@0.1.0 tauri
+> tauri dev
+
+npm :      Running 
+BeforeDevCommand (`npm run dev`)
+At line:1 char:145
++ ... tVariable("Path","User"); 
+npm run tauri dev > 
+build_errors_3.txt 2>&1
++                               ~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~
+    + CategoryInfo          : NotS 
+   pecified: (     Running Be...(  
+  `npm run dev`):String) [], Rem   
+ oteException
+    + FullyQualifiedErrorId : Nati 
+   veCommandError
+ 
+
+> prompt-enhancer-desktop@0.1.0 dev
+> vite
+
+[33mYou are using Node.js 
+20.15.1. Vite requires Node.js 
+version 20.19+ or 22.12+. Please 
+upgrade your Node.js version.[39m
+
+  [32m[1mVITE[22m v7.3.1[39m  [2mready in [0m[1m780[22m[2m[0m ms[22m
+
+  [32mΓ₧£[39m  [1mLocal[22m:   [36mhttp://localhost:[1m1420[22m/[39m
+     Running DevCommand (`cargo  
+run --no-default-features --color 
+always --`)
+        Info Watching 
+C:\Users\Dharjinder Singh\.gemini\a
+ntigravity\scratch\Format\prompt-en
+hancer-desktop\src-tauri for 
+changes...
+[1m[92m    Finished[0m ]8;;http
+s://doc.rust-lang.org/cargo/referen
+ce/profiles.html#default-profiles\
+`dev` profile [unoptimized + 
+debuginfo]]8;;\ target(s) in 
+1.56s
+[1m[92m     Running[0m `target\d
+ebug\prompt-enhancer-desktop.exe`
+Initializing database at: "C:\\Users\\Dharjinder Singh\\AppData\\Roaming\\prompt-enhancer\\user_data.db"
+
+thread 'main' (26352) panicked at 
+C:\Users\Dharjinder Singh\.cargo\re
+gistry\src\index.crates.io-1949cf8c
+6b5b557f\tauri-2.10.3\src\app.rs:12
+99:11:
+Failed to setup app: error 
+encountered during setup hook: 
+HotKey already registered: HotKey 
+{ mods: Modifiers(CONTROL | 
+SHIFT), key: Space, id: 34078782 }
+note: run with `RUST_BACKTRACE=1` 
+environment variable to display a 
+backtrace
+[0311/033114.211:ERROR:ui\gfx\win\w
+indow_impl.cc:124] Failed to 
+unregister class 
+Chrome_WidgetWin_0. Error = 1412
+[1m[91merror[0m: process didn't 
+exit successfully: `target\debug\pr
+ompt-enhancer-desktop.exe` (exit 
+code: 101)
+[2m3:31:15 am[22m 
+[31m[1m[vite][22m[39m 
+[31m[2m(client)[22m[39m 
+Pre-transform error: Failed to 
+load PostCSS config (searchPath: 
+C:/Users/Dharjinder Singh/.gemini/a
+ntigravity/scratch/Format/prompt-en
+hancer-desktop): [Error] Loading 
+PostCSS Plugin failed: Cannot find 
+module 'tailwindcss'
+Require stack:
+- C:\Users\Dharjinder 
+Singh\postcss.config.js
+
+(@C:\Users\Dharjinder 
+Singh\postcss.config.js)
+Error: Loading PostCSS Plugin 
+failed: Cannot find module 
+'tailwindcss'
+Require stack:
+- C:\Users\Dharjinder 
+Singh\postcss.config.js
+
+(@C:\Users\Dharjinder 
+Singh\postcss.config.js)
+    at load (file:///C:/Users/Dharj
+inder%20Singh/.gemini/antigravity/s
+cratch/Format/prompt-enhancer-deskt
+op/node_modules/vite/dist/node/chun
+ks/config.js:7660:10)
+    at async Promise.all (index 0)
+    at async plugins (file:///C:/Us
+ers/Dharjinder%20Singh/.gemini/anti
+gravity/scratch/Format/prompt-enhan
+cer-desktop/node_modules/vite/dist/
+node/chunks/config.js:7682:11)
+    at async processResult (file://
+/C:/Users/Dharjinder%20Singh/.gemin
+i/antigravity/scratch/Format/prompt
+-enhancer-desktop/node_modules/vite
+/dist/node/chunks/config.js:7721:13
+)
+  Plugin: [35mvite:css[39m
+  File: [36mC:/Users/Dharjinder Si
+ngh/.gemini/antigravity/scratch/For
+mat/prompt-enhancer-desktop/src/App
+.css[39m

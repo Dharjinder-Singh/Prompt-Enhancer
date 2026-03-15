@@ -1,0 +1,25 @@
+﻿cargo :     Blocking waiting for 
+file lock on artifact directory
+At line:1 char:145
++ ... 
+ronmentVariable("Path","User"); 
+cargo build > build_errors_2.txt 
+2>&1
++                                  
+   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~
+    + CategoryInfo          : NotS 
+   pecified: (    Blocking wa...i  
+  fact directory:String) [], Rem   
+ oteException
+    + FullyQualifiedErrorId : Nati 
+   veCommandError
+ 
+   Compiling 
+prompt-enhancer-desktop v0.1.0 
+(C:\Users\Dharjinder Singh\.gemini\
+antigravity\scratch\Format\prompt-e
+nhancer-desktop\src-tauri)
+    Finished `dev` profile 
+[unoptimized + debuginfo] 
+target(s) in 31.35s
